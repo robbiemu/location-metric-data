@@ -1,0 +1,335 @@
+{
+    "registered_apps": [
+      "app_1",
+      "app_2",
+      "app_3"
+    ],
+    "time_frame": {
+        "from": "2017-08-28",
+        "to": "2018-02-01"
+    },
+    "users": {
+      "user_1": {
+        "apps": {
+          "app_1": {
+            "adherance": 0.8,
+            "progress": 0.01,
+            "negative_locii": [
+              "work"
+            ]
+          },
+          "app_2": {
+            "adherance": 0.6,
+            "progress": 0.02,
+            "negative_locii": [
+              "lunch",
+              "bar",
+              "work"
+            ],
+            "positive_locii": [
+                "home"
+              ]
+          }
+        },
+        "locii": {
+          "weekday": [
+            {
+              "location": "home",
+              "attendance": 0.99,
+              "daily_hours": 0.46467
+            },
+            {
+              "location": "work",
+              "attendance": 0.9,
+              "daily_hours": 0.3125
+            },
+            {
+              "location": "grocers",
+              "attendance": 0.1,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "lunch",
+              "attendance": 0.1,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "bar",
+              "attendance": 0.2,
+              "daily_hours": 0.125
+            },
+            {
+              "location": "park",
+              "attendance": 0.05,
+              "daily_hours": 0.083,
+              "excluding": [
+                "SUMMERS"
+              ]
+            }
+          ],
+          "weekend": [
+            {
+              "location": "home",
+              "attendance": 0.99,
+              "daily_hours": 0.6083,
+              "excluding": [
+                "WINTERS", "SUMMERS"
+              ]
+            },
+            {
+              "location": "grocers",
+              "attendance": 0.05,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "lunch",
+              "attendance": 0.2,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "relatives",
+              "attendance": 0.9,
+              "daily_hours": 0.167,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "bar",
+              "attendance": 0.2,
+              "daily_hours": 0.125
+            },
+            {
+              "location": "park",
+              "attendance": 0.1,
+              "daily_hours": 0.083,
+              "excluding": [
+                "SUMMERS"
+              ]
+            }
+          ]
+        }
+      },
+      "user_2": {
+        "apps": {
+          "app_2": {
+            "adherance": 0.6,
+            "progress": 0.1,
+            "negative_locii": [
+              "lunch",
+              "bar",
+              "home"
+            ],
+            "positive_locii": [
+              "park"
+            ]
+          }
+        },
+        "locii": {
+          "weekday": [
+            {
+              "location": "home",
+              "attendance": 0.9,
+              "daily_hours": 0.421875,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "girlfriends",
+              "attendance": 0.1,
+              "daily_hours": 0.421875
+            },
+            {
+              "location": "work",
+              "attendance": 0.9,
+              "daily_hours": 0.3125
+            },
+            {
+              "location": "grocers",
+              "attendance": 0.1,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "lunch",
+              "attendance": 0.1,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "bar",
+              "attendance": 0.2,
+              "daily_hours": 0.125
+            },
+            {
+              "location": "park",
+              "attendance": 0.05,
+              "daily_hours": 0.083
+            }
+          ],
+          "weekend": [
+            {
+              "location": "home",
+              "attendance": 0.6,
+              "daily_hours": 0.7083,
+              "excluding": [
+                "WINTERS"
+              ]
+            },
+            {
+              "location": "girlfriends",
+              "attendance": 0.3,
+              "daily_hours": 0.421875
+            },
+            {
+              "location": "grocers",
+              "attendance": 0.05,
+              "daily_hours": 0.02083,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "lunch",
+              "attendance": 0.2,
+              "daily_hours": 0.02083,
+              "excluding": [
+                "WINTERS"
+              ]
+            },
+            {
+              "location": "relatives",
+              "attendance": 0.9,
+              "daily_hours": 0.167,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "bar",
+              "attendance": 0.2,
+              "daily_hours": 0.125
+            },
+            {
+              "location": "park",
+              "attendance": 0.1,
+              "daily_hours": 0.083,
+              "excluding": [
+                "SUMMERS"
+              ]
+            }
+          ]
+        }
+      },
+      "user_3": {
+        "apps": {
+          "app_1": {
+            "adherance": 0.8,
+            "progress": 0.1,
+            "negative_locii": [
+              "work"
+            ]
+          },
+          "app_3": {
+            "adherance": 0.5,
+            "progress": 0.03,
+            "negative_locii": [
+              "home",
+              "girlfriends"
+            ],
+            "positive_locii": [
+              "bar",
+              "work"
+            ]
+          }
+        },
+        "locii": {
+          "weekday": [
+            {
+              "location": "home",
+              "attendance": 0.9,
+              "daily_hours": 0.421875
+            },
+            {
+              "location": "girlfriends",
+              "attendance": 0.1,
+              "daily_hours": 0.321875,
+              "excluding": [
+                "WINTERS"
+              ]
+            },
+            {
+              "location": "work",
+              "attendance": 0.9,
+              "daily_hours": 0.3125
+            },
+            {
+              "location": "grocers",
+              "attendance": 0.1,
+              "daily_hours": 0.02083,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "lunch",
+              "attendance": 0.1,
+              "daily_hours": 0.02083,
+              "excluding": [
+                "WINTERS"
+              ]
+            },
+            {
+              "location": "bar",
+              "attendance": 0.2,
+              "daily_hours": 0.125,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "park",
+              "attendance": 0.05,
+              "daily_hours": 0.083
+            }
+          ],
+          "weekend": [
+            {
+              "location": "home",
+              "attendance": 0.6,
+              "daily_hours": 0.7083
+            },
+            {
+              "location": "girlfriends",
+              "attendance": 0.3,
+              "daily_hours": 0.321875,
+              "excluding": [
+                "SUMMERS"
+              ]
+            },
+            {
+              "location": "grocers",
+              "attendance": 0.05,
+              "daily_hours": 0.02083
+            },
+            {
+              "location": "relatives",
+              "attendance": 0.5,
+              "daily_hours": 0.167
+            },
+            {
+              "location": "bar",
+              "attendance": 0.2,
+              "daily_hours": 0.125
+            },
+            {
+              "location": "park",
+              "attendance": 0.1,
+              "daily_hours": 0.083
+            }
+          ]
+        }
+      }
+    }
+  }
+  
+  

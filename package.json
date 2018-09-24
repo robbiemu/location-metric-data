@@ -1,0 +1,30 @@
+{
+  "name": "generateFakedData",
+  "version": "1.0.0",
+  "description": "generates faked data",
+  "repository": "nada",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=*,-babel,-trace nodemon --exec babel-node gen.js"
+  },
+  "keywords": [],
+  "author": "Robert Collins <robert.collins@qwire.com>",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-config-file": "^1.0.2",
+    "moment": "^2.22.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "debug": "^3.1.0",
+    "install": "^0.12.1",
+    "nodemon": "^1.18.3",
+    "npm": "^6.4.0"
+  }
+}
